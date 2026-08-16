@@ -12,7 +12,7 @@ class Solution {
         //shrink the window
         while(total >= target){
 
-            minlength = Math.min(minlength,right-left+1);
+            minlength = Math.min(minlength,right-left+1);  //calculating the current length of the subarray
 
             total = total - nums[left];  //shrinking the window as possible 
             left++;   
