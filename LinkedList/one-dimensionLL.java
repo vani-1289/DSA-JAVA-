@@ -55,7 +55,7 @@ public class LL {
 
     }
 //------------------------------------------------------------------------------------------
- public int deletefirst(){            //deleting from first 
+ public int deletefirst(){            //deleting from first element
     int val = head.value;
     head = head.next;
     if(head == null){
